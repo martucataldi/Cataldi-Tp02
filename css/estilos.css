@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;700&display=swap');
+
+
+
+
+body {
+font-family: 'Roboto', sans-serif;
+background-color: #E8E2D6;
+color: #363B4D;
+margin: 30px;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+h1 {
+font-family: 'Righteous', serif;
+color: #B64B26;
+font-size: 2.8em;
+line-height: 1;
+margin-bottom: 30px;
+text-transform: uppercase;
+}
+
+
+h2 {
+font-family: 'Righteous', serif;
+color: #B64B26;
+font-size: 1.8em;
+margin: 20px;
+text-transform: uppercase;
+}
+
+
+p {
+font-size: 1em;
+line-height: 1.5;
+margin-bottom: 30px;
+}
+
+
+
+
+.btn-info {
+display: inline-block;
+padding: 10px 20px;
+background-color: #C2D3A9;
+color: #5F7146;
+border: 2px solid #5F7146;
+text-decoration: none;
+transition: background-color 0.5s ease, color 0.5s ease;
+margin-bottom: 20px;
+}
+
+
+.btn-info:hover {
+background-color: #303823;
+color: #C2D3A9;
+}
+
+
+
+
+.imagenes {
+display: flex;
+justify-content: space-between;
+gap: 30px;
+margin: 20px 0;
+}
+
+
+.imagenes img {
+width: 30%;
+border: 3px solid #F1DC57;
+transition: filter 0.5s ease;
+}
+
+
+.imagenes img:hover {
+filter: grayscale(70%);
+}
+
+
+
+
+.imagen-gunta {
+display: block;
+margin: 20px auto;
+width: 70%;
+border: 3px solid #F1DC57;
+}
+
+
+
+
+.titulo-izquierda {
+text-align: left;
+}
+
+
+
+
+@media (max-width: 768px) {
+.imagenes {
+flex-direction: column;
+}
+
+
+.imagenes img {
+width: 100%;
+}
+}
+
+
+footer {
+background-color: #B64B26;
+height: 150px;
+margin-top: 30px;
+width: 100%;
+padding: 20px;
+}
